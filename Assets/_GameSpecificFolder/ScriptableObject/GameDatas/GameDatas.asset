@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8f7fdf5745edf4d9aaed46efa3a4ea, type: 3}
+  m_Name: GameDatas
+  m_EditorClassIdentifier: 
+  carPriceFactors:
+    DamageFactor: 0.5
+    PaintFactor: 0.3
+    SpeedFactor: 1
+    TorqueFactor: 1
+  interactMessages:
+    CarMessage: Bin
+    CarNegativeMessage: "Araca Sahip De\u011Filsin"
+    SellerMessage: Konus
+  offerMessage:
+    AcceptedMessage: "Sat\u0131c\u0131 fiyat\u0131 onaylad\u0131. Tebrikler"
+    RejectedMessage: "Sat\u0131c\u0131 fiyat\u0131 onaylamad\u0131"
+  ActiveCarProperties: {fileID: 0}
+  CarList:
+  - {fileID: 6832199047911268537, guid: 37c8e46848e67a04a8b746435d14bea1, type: 3}
+  - {fileID: 8073164722738443180, guid: 3516837726987674597f740c167da6e2, type: 3}
+  - {fileID: 1832206287897531407, guid: d14a6d4a4c83e59409cf500fa4dc1fc6, type: 3}
+  - {fileID: 22686499428269675, guid: e309ca4fb65139d47bf0599cf3e0a1ae, type: 3}
+  SellerList:
+  - {fileID: 7246151956043379839, guid: cf443103438b7a345961d419faa5b8ee, type: 3}
+  - {fileID: 2221793942190808503, guid: a6d933ce9ddd04743a89ff82203ad7ed, type: 3}
+  - {fileID: 7091798213618528166, guid: 917eceb1456e4d34fad8b304e9997390, type: 3}
+  - {fileID: 9219486581584915055, guid: 1cb05531e7218ae4c9a27eb3df06afbf, type: 3}
